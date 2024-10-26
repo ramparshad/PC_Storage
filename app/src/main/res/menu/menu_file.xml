@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/upload_nav"
+        android:title="@string/upload_nav"
+        app:showAsAction="ifRoom"
+        android:iconTint="#34F802"
+        android:icon="@android:drawable/ic_menu_upload"
+        />
+    <item
+        android:title="Visit Github"
+        android:id="@+id/visit_github"
+        />
+    <item
+        android:title="Visit Linkedin"
+        android:id="@+id/visit_linkedin"
+       />
+    <item
+        android:title="Share"
+        android:id="@+id/share_app"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/ic_menu_share"
+        />
+    <item
+        android:title="Logout"
+        android:id="@+id/logout"
+        />
+</menu>
+
